@@ -17,7 +17,7 @@ public class Main {
         int height = scanner.nextInt();
          BmiCaltulator bmiCaltulator = new BmiCaltulator(weight,height);
         System.out.println("Your BMI is equals to: " + bmiCaltulator.countBMI());
-
+        System.out.println("Your Weight status is " + bmiCaltulator.WeightStatus().toString());
 
     }
 }
